@@ -1,6 +1,6 @@
 #IIS Web Response Health
 #PS
-input string: $domain_name
+#input string: $domain_name
 try {
 
     $response = Invoke-WebRequest -Uri $domain_name -Method Head
